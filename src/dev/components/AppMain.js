@@ -1,12 +1,15 @@
 import React from 'react';
 import Header from './header'
-import BreakupForm from '../containers/breakupForm'
+//import BreakupForm from '../containers/breakupForm'
+import DeductionForm from '../containers/deductionForm'
 
 const AppMain =()=>{
 return(
     <div>
         <Header/>
-        <BreakupForm/>
+        <DeductionForm/>
+        <DeductionForm/>
+        <DeductionForm/>
       </div>
 )
 }
